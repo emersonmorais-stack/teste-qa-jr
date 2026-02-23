@@ -19,6 +19,7 @@ a sugestão era utilizar o postman para testar a roda de produtos, mas optei por
  precisa ter o [Node.js](https://nodejs.org/) e o Git instalados no computador.
  nvm install --lts
 
+ 
 1. Faça o clone deste repositório para a sua máquina:
    ```bash
    git clone [https://github.com/emersonmorais-stack/teste-qa-jr.git]

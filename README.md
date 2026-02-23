@@ -1,10 +1,5 @@
 #TESTE QA
 
-
-
-## Sobre minhas escolhas
-
-**Por que o Cypress?**
 Para a automação da interface, acabei optando por utilizar o **Cypress**. 
 
 **O desafio do E-mail Único:**

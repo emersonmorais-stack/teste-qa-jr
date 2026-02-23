@@ -27,3 +27,15 @@ a sugestão era utilizar o postman para testar a roda de produtos, mas optei por
 1. Faça o clone deste repositório para a sua máquina:
    ```bash
    git clone [https://github.com/emersonmorais-stack/teste-qa-jr]
+
+   Pelo terminal, entre na pasta do projeto e instale as dependências (isso vai configurar o Cypress automaticamente):
+
+
+npm install
+Para ver o robô trabalhando (Modo Visual): Se quiserem acompanhar o navegador abrindo e preenchendo os dados, basta rodar o comando abaixo e selecionar o teste E2E na janela gráfica que vai se abrir:
+
+
+npx cypress open
+Para rodar no modo silencioso (Headless): Se preferirem rodar tudo direto no terminal, simulando uma execução em esteira de CI/CD, é só usar o comando:
+
+npx cypress run

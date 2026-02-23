@@ -1,0 +1,17 @@
+Cenário de teste QA 
+
+Conforme solicitado no teste, mapeei dois cenários focados no cadastro usando a estrutura BDD (Dado | Quando | Então).
+
+# Cenário 1: Cadastro de usuário com sucesso
+* **Dado** que estou na página de cadastro do ServeRest
+* **Quando** preencho os campos obrigatórios com dados válidos (utilizando um e-mail dinâmico e novo)
+* **E** clico no botão de cadastrar
+* **Então** o sistema deve realizar o meu cadastro
+* **E** me redirecionar para a página inicial exibindo uma mensagem de sucesso ("Cadastro realizado com sucesso")
+
+# Cenário 2: Tentativa de cadastro com e-mail já existente
+* **Dado** que estou na página de cadastro do ServeRest
+* **Quando** tento me cadastrar preenchendo os campos com um e-mail que já existe no banco de dados
+* **E** clico em cadastrar
+* **Então** o sistema deve barrar a criação da conta
+* **E** exibir a mensagem de erro alertando que o e-mail já está em uso ("Este email já está sendo usado")

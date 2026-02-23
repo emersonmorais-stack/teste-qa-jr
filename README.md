@@ -38,7 +38,7 @@ npx cypress run
 
 Para facilitar a navegação de vocês pelo meu código, deixei a estrutura bem separadinha:
 
-📄 Cenarios.md: Aqui na raiz do projeto, deixei a escrita dos cenários da Parte 1, utilizando a estrutura BDD (Dado - Quando - Então) para manter a linguagem clara e acessível para qualquer pessoa do time.
+📄 Teste QA analista de testes Jr: Aqui na raiz do projeto, deixei a escrita dos cenários da Parte 1, utilizando a estrutura BDD (Dado - Quando - Então) para manter a linguagem clara e acessível para qualquer pessoa do time.
 
 🤖 cypress/e2e/cadastro.cy.js: Este é o coração da automação. Aqui está o script que acessa o site, contorna a página inicial, gera o e-mail dinâmico, preenche o formulário e valida a mensagem de sucesso de cadastro.
 
